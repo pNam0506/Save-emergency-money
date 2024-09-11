@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emergency</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="calculate">
+        <h1 id="topic">Save emergency money</h1>
+        <p>***(emergency money คือเงินที่ใช้ในยามฉุกเฉินหรือเหตุจำเป็นเท่านั้น % ในการเก็บออมเริ่มต้นที่ 10% ของเงินเดือน หรือเเล้วเเต่ความเหมาะของเงินเดือนเเต่ละบุคคล หากตัดสินใจหักออกมาเเล้ว ต้องทำเป็นมองไม่เห็นเงินก้อนนี้ไปเลย เสมือนว่าเราได้ใช้ไปเเล้ว)***</p>
+        <div>
+            <p>Money per month</p>
+            <input id="money" type="text" required/>
+        </div>
+        <div>
+            <p>Percent to save money (%)</p>
+            <input id="percent" type="text" value="10"/>
+
+        </div>
+        <div>
+            <p>How many years have you saved money?</p>
+            <input id="year" type="text" value="0"/>
+
+        </div>
+
+        <div>
+            <p>How many months do you save money?</p>
+            <input id="month" type="text" value = "0"/>
+
+        </div>
+
+        <div>
+            <button onclick="calculate(document.getElementById('money').value, document.getElementById('percent').value, document.getElementById('year').value, document.getElementById('month').value)">calculate</button>
+            
+        </div>
+
+        <p id="save_money"></p>
+        <p id="left"></p>
+        <p id="Long"></p>
+
+        <script src="emergency.js"></script>
+
+
+
+    </div>
+    
+</body>
+</html>

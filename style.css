@@ -1,0 +1,83 @@
+/* @keyframes backgroundAnimation {
+    0% {
+        background-color: #ffffff;
+    }
+    50% {
+        background-color: #BDE8CA;
+    }
+    100% {
+        background-color: #41B3A2;
+    }
+} */
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful, fun font */
+    background-color: #e4ffe0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: backgroundAnimation 50s infinite; /* Soft color animation */
+}
+
+.calculate {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px; /* More rounded corners for a cute effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 300px;
+    text-align: center;
+}
+
+.calculate div {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D7C66; /* Playful pink text color */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #41B3A2; /* Soft pink border */
+    border-radius: 10px; /* Rounded inputs */
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Soft pink background */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #41B3A2; /* Cute pink color */
+    border: none;
+    border-radius: 10px; /* Rounded button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0D7C66; /* Slightly darker pink on hover */
+}
+
+#save_money, #left, #Long {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #0D7C66;
+}
+
+#topic {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    color: #0D7C66;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Cute uppercase text */
+}
